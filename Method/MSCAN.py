@@ -5,7 +5,7 @@ from collections import defaultdict
 from time import time
 
 
-def base_community_detection(graph: MultilayerGraph, miu: int, eps: float, threshold: int):
+def MSCAN_algorithm(graph: MultilayerGraph, miu: int, eps: float, threshold: int):
     """
     一个多层图上基础的社区检测算法
     :param graph: 输入图
